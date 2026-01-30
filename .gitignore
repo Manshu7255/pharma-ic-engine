@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.db
+
+# Large generated files (regenerate with: python generate_data.py)
+03_sample_data.sql
+
+# Export files
+FULL_PROJECT_EXPORT.txt
+PROJECT_EXPORT.txt
